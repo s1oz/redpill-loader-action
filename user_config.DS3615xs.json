@@ -5,6 +5,9 @@
     "sn": "1130LWN123456",
     "mac1": "001132123456"
   },
-  "synoinfo": {},
+  "synoinfo": {
+    "supportsystemperature": "no",
+    "supportsystempwarning": "no"
+  },
   "ramdisk_copy": {}
 }

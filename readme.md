@@ -1,3 +1,6 @@
+[来自于Izumiko/redpill-loader-action](https://github.com/Izumiko/redpill-loader-action)
+
+
 # Building RedPill loader with Github action
 
 DS918+ & DS3615xs DSM 7.0.1 loader
