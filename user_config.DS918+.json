@@ -6,8 +6,8 @@
     "mac1": "001132123456"
   },
   "synoinfo": {
-    "supportsystemperature": "no",
-    "supportsystempwarning": "no"
+    "internalportcfg" : "0x3",
+    "esataportcfg" : "0xfffc"
   },
   "ramdisk_copy": {}
 }
