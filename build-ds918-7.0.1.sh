@@ -27,6 +27,18 @@ cd ..
 # build redpill-load
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
+./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-acpid/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/ax88179_178a/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8101/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8125/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8169/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/redpill-boot-wait/rpext-index.json
 sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
-mv images/redpill-DS918+_7.0.1-4221*.img ${root}/output/
+mv images/redpill-DS918+_7.0.1-42218.img ${root}/output/
 cd ${root}
