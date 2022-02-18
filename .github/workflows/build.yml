@@ -27,7 +27,7 @@ jobs:
           name: redpill-DS3615xs_7.0.1-loader
           path: output/redpill-DS3615xs_7.0*.img
 
-
+ 
       - name: Archive DS918+ 7.0.1 loader image
         uses: actions/upload-artifact@v2
         with:
